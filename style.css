@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:white;
+    font-family: 'Manjari', sans-serif;
+    font-size: 27px;
+}
+
+.nombre {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 20px;
+    padding-right: 30%;
+    background-color: #9ce0db;
+    color:black;
+    margin: 20px white solid;
+    border: white solid 20px;
+}
+
+.nombre div{
+    text-align: center;
+}
+.nombre .fotito img{
+    width: 120px;
+}
+.container{
+    width: 100%;
+    display: grid;
+
+}
+.container .sidebar{
+    background-color: #338b85;
+    padding: 20px;
+    margin: 20px;
+    border: 1px;
+    grid-column: 1/3;
+}
+/*perfil*/
+.container >.sidebar > .perfil{
+    padding: 20px;
+    margin: 20px;
+    border: 1px;
+
+}
+.container >.sidebar > .perfil>h3{
+    color:#9ce0db;
+}
+
+.container >.sidebar >.perfil>.dentroperf{
+    padding: 0;
+    margin-top: 20px;
+    border: 1px
+}
+.container >.sidebar >.perfil>.dentroperf>p{
+    color: white;
+}
+/*contacto*/
+.container >.sidebar >.contacto{
+    padding: 20px;
+    margin: 20px;
+    border: 1px 
+}
+.container >.sidebar >.contacto> h3{
+    color: #9ce0db;
+}
+
+.container >.sidebar >.contacto>.dentrocont{
+    padding: 0;
+    margin-top: 20px;
+    border: 1px
+}
+.container >.sidebar >.contacto>.dentrocont>h4{
+    color: #9ce0db;
+}
+.container >.sidebar >.contacto>.dentrocont> p{
+    color: white;
+}
+.contacto{
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black
+}
+.container .contenido{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    grid-column: 3/6;
+}
+/*experiencia*/
+.container>.contenido> .exp {
+    padding: 0;
+    margin-top: 20px;
+    border: 1px;
+}
+.container>.contenido> .exp>h3{
+    color:#005954
+
+}
+.container>.contenido> .exp> .dentroexp{
+    padding: 0;
+    margin-top: 20px;
+    border: 1px;
+}
+.container>.contenido> .exp> .dentroexp>h4{
+    color: #005954;
+}
+.container>.contenido> .exp> .dentroexp>p{
+    color:black;
+}
+/*estudio*/
+.container>.contenido> .est {
+    padding: 0;
+    margin-top: 20px;
+    border: 1px;
+}
+.container>.contenido>.est> h3{
+    color:#005954
+}
+.container>.contenido >.est> .dentroest{
+    padding: 0;
+    margin-top: 20px;
+    border: 1px;
+}
+.container>.contenido >.est> .dentroest>h4{
+    color: #005954;
+}
+.container>.contenido >.est> .dentroest>p{
+    color:black;
+}
+
+/*idioma*/
+.container>.contenido> .idi {
+    padding: 0;
+    margin-top: 20px;
+    border: 1px;
+}
+.container>.contenido> .idi>h3{
+    color: #005954;
+}
+.container>.contenido >.idi> .dentroidi{
+    padding: 0;
+    margin-top: 20px;
+    border: 1px;
+}
+.container>.contenido >.idi> .dentroidi>p{
+    color: black;
+}
+/*habilidades*/
+.container>.contenido> .hab {
+    padding: 0;
+    margin-top: 20px;
+    border: 1px;
+}
+.container>.contenido> .hab>h3{
+    color: #005954;
+}
+.container>.contenido >.hab> .dentrohab{
+    padding: 0;
+    margin-top: 20px;
+    border: 1px;
+}
+.container>.contenido >.hab> .dentrohab>p{
+    color: black;
+}
+.container>.contenido>.hab>.dentrohab{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+/*hobbies*/
+.container>.contenido>.hob{
+    padding: 0;
+    margin-top: 20px;
+    border: 1px;
+}
+.container>.contenido>.hob>h3{
+    color: #005954;
+}
+.container>.contenido>.hob>.dentrohob{
+    padding: 0;
+    margin-top: 20px;
+    border: 1px;
+}
+.container>.contenido>.hob>.dentrohob>p{
+    color: black;
+}
+/*footer*/
+.container .footer{
+    background-color: #338b85;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    grid-column: 1/6;
+}
+.pyth {
+    width: 50px;
+}
+.htmll{
+    width: 50px;
+}
+.csss{
+    width: 50px;
+}
+.oracle{
+    width: 50px;
+}
